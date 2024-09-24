@@ -6,5 +6,17 @@
             "require 'config.php';"
         ],
         "description": "Config fájl behívása"
-    }
+    },
+    "Config fájl kitöltése": {
+        "scope": "php",
+        "prefix": "!config-fajl",
+        "body": [
+            "$conn = new mysqli('localhost', 'root', '', 'adatbazis_neve');",
+            "",
+            "if($conn->connect_error){",
+            "   die('Connection failed! '.$conn->connect_error);",
+            "}"
+        ],
+        "description": "Config fájl kitöltése"
+    },
 }

@@ -7,6 +7,7 @@ Egy felkiáltójel beírásával a Visual Studio Code ki fogja listázni az öss
 ## Parancsok listája
 
 **!config-be** - Config fájl behívása.  
+**!config-fajl** - Config fájl kitöltése.
 
 ## Példa
 
@@ -24,6 +25,6 @@ require "config.php";
 
 ## Új verzió
 
-### 0.0.4
+### 0.0.5
 
-Bugfix
+Config fájl kitöltése

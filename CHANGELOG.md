@@ -1,3 +1,7 @@
+# 0.0.5
+
+Config fájl kitöltése
+
 # 0.0.4
 
 Bugfix
