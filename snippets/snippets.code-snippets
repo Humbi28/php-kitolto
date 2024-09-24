@@ -1,0 +1,10 @@
+{
+    "Config fájl behívása": {
+        "scope": "php",
+        "prefix": "!config-be",
+        "body": [
+            "require 'config.php';"
+        ],
+        "description": "Config fájl behívása"
+    }
+}
