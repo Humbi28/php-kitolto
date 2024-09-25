@@ -11,12 +11,34 @@
         "scope": "php",
         "prefix": "!config-fajl",
         "body": [
-            "$conn = new mysqli('localhost', 'root', '', 'adatbazis_neve');",
+            "$$conn = new mysqli('localhost', 'root', '', 'adatbazis_neve');",
             "",
-            "if($conn->connect_error){",
-            "   die('Connection failed! '.$conn->connect_error);",
+            "if($$conn->connect_error){",
+            "   die('Connection failed! '.$$conn->connect_error);",
             "}"
         ],
         "description": "Config fájl kitöltése"
+    },
+    "Egy soros lekérdezés": {
+        "scope": "php",
+        "prefix": "!lekerdezes-egy-sor",
+        "body": [
+            "$$lekerdezes = 'SELECT * FROM tablanev';",
+            "$$talalt_sor = $$conn->query($$lekerdezes);",
+            "$$sor = $$talalt_sor->ferch_assoc();"
+        ],
+        "description": "Egy soros lekérdezés"
+    },
+    "Több soros lekérdezés": {
+        "scope": "php",
+        "prefix": "!lekerdezes-tobb-sor",
+        "body": [
+            "$$lekerdezes = 'SELECT * FROM tablanev';",
+            "$$talalt_sorok = $$conn->query($$lekerdezes);",
+            "while($$sor = $$talalt_sorok->ferch_assoc()){",
+            "",
+            "}"
+        ],
+        "description": "Több soros lekérdezés"
     },
 }

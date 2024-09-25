@@ -1,3 +1,15 @@
+# 0.0.8
+
+Bugfix
+
+# 0.0.7
+
+Dollárjel bugfix, icon
+
+# 0.0.6
+
+Egy és több soros lekérdezés
+
 # 0.0.5
 
 Config fájl kitöltése
