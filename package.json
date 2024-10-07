@@ -3,7 +3,7 @@
   "displayName": "Humbi PHP",
   "publisher": "HunCoder",
   "description": "Kitöltő PHP órákhoz",
-  "version": "0.0.8",
+  "version": "0.0.13",
   "engines": {
     "vscode": "^1.93.0"
   },

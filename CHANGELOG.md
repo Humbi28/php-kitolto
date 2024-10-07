@@ -1,3 +1,23 @@
+# 0.0.13
+
+Header átirányítás, jelszó titkosítás, süti létrehozása
+
+# 0.0.12
+
+Idézőjel bugfix
+
+# 0.0.11
+
+Javascript alert
+
+# 0.0.10
+
+Readme
+
+# 0.0.9
+
+Fetch Bugfix
+
 # 0.0.8
 
 Bugfix

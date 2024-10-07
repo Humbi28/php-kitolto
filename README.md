@@ -1,4 +1,4 @@
-# HunCoder WebDev CSS
+# Humbi PHP
 
 ## Használat
 
@@ -10,6 +10,7 @@ Egy felkiáltójel beírásával a Visual Studio Code ki fogja listázni az öss
 **!config-fajl** - Config fájl kitöltése.  
 **!lekerdezes-egy-sor** - Egy soros lekérdezés.  
 **!lekerdezes-tobb-sor** - Több soros lekérdezés.  
+**!script-alert** - Javascript alert.  
 
 ## Példa
 
@@ -27,6 +28,6 @@ require "config.php";
 
 ## Új verzió
 
-### 0.0.8
+### 0.0.13
 
-Bugfix
+Header átirányítás, jelszó titkosítás, süti létrehozása
