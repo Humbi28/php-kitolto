@@ -61,7 +61,7 @@
         "scope": "php",
         "prefix": "!jelszo-titkositas",
         "body": [
-            "$$titkositott_jelszo = password_hash(jelszo, PASSWORD_DEFAULT);"
+            "$$titkositott_jelszo = password_hash(\"jelszo\", PASSWORD_DEFAULT);"
         ],
         "description": "Jelszó titkosítás"
     },
@@ -73,4 +73,28 @@
         ],
         "description": "Süti"
     },
+    "Adat feltöltése": {
+        "scope": "php",
+        "prefix": "!insert",
+        "body": [
+            "$$conn->query(\"INSERT INTO tabla VALUES()\");"
+        ],
+        "description": "Adat feltöltése"
+    },
+    "Adat módosítása": {
+        "scope": "php",
+        "prefix": "!update",
+        "body": [
+            "$$conn->query(\"UPDATE tabla SET\");"
+        ],
+        "description": "Adat módosítása"
+    },
+    "Adat törlése": {
+        "scope": "php",
+        "prefix": "!delete",
+        "body": [
+            "$$conn->query(\"DELETE FROM tabla\");"
+        ],
+        "description": "Adat törlése"
+    }
 }

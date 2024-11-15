@@ -28,6 +28,6 @@ require "config.php";
 
 ## Új verzió
 
-### 0.0.13
+### 0.0.15
 
-Header átirányítás, jelszó titkosítás, süti létrehozása
+Insert, Update, Delete $conn->query()

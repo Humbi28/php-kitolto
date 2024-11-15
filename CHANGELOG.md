@@ -1,3 +1,11 @@
+# 0.0.15
+
+Insert, Update, Delete $conn->query()
+
+# 0.0.14
+
+Buxfix
+
 # 0.0.13
 
 Header átirányítás, jelszó titkosítás, süti létrehozása
